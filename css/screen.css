@@ -1,1 +1,43 @@
-@import url(reset.css);body{background:#fff;color:#111;font-family:'Lato', sans-serif;font-size:15px;line-height:1.5;padding:50px}h1{font-size:28px;margin-bottom:15px;font-weight:900}p{margin-bottom:15px;line-height:1.7}a{color:#999;text-decoration:none;font-weight:bold;cursor:pointer}a:hover{color:#333}section,aside{padding:15px 0;border-top:1px solid #999}section{width:440px;padding-right:50px;float:left}aside{padding-left:50px;float:right}aside nav a{display:block;text-align:right}@media only screen and (max-width: 900px){section,aside{width:440px;float:none;padding:15px 50px 15px 0}aside nav a{text-align:left}}@media only screen and (max-width: 600px){body{padding:20px}section,aside{width:auto;padding:15px 30px 15px 0}}
+@import url(reset.css);
+html, body {
+  width: 100%;
+  height: 100%;
+  background: #353033;
+  color: #fff;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  position: relative; }
+
+p {
+  color: #b4b4b4;
+  margin-bottom: 15px;
+  line-height: 1.7; }
+
+a {
+  color: #d1ffbf;
+  text-decoration: none;
+  cursor: pointer; }
+  a:hover {
+    text-decoration: underline; }
+
+section {
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  width: 500px; }
+  section p:last-child {
+    margin-bottom: 0; }
+
+aside {
+  position: absolute;
+  bottom: 50px;
+  left: 50px; }
+  aside h1 {
+    font-size: 42px;
+    font-weight: bolder;
+    letter-spacing: -1px; }
+  aside nav a {
+    font-size: 11px;
+    display: block;
+    text-align: right; }
