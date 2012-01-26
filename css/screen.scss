@@ -1,19 +1,28 @@
 @import 'reset.css';
 
+html {
+  width: 100%; 
+  height: 100%;
+}
+
 body {
-  background: #fff;
-  color: #111;
-  font-family: 'Lato', sans-serif;  
-  font-size: 15px;
+  min-height: 100%;
+  background: #353033;
+  color: #b4b4b4;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 14px;
   line-height: 1.5;
-  padding: 50px;  
+  border-left: 13px solid #ED1A46;
 }
 
 
 h1 {
-  font-size: 28px;
+  color: #fff;
+  font-size: 42px;
+  line-height: 1;
   margin-bottom: 15px;
   font-weight: 900;
+  letter-spacing: -1px;
 }
 
 p {
@@ -22,34 +31,28 @@ p {
 }
 
 a {
-  color: #999;
+  color: #d1ffbf;
   text-decoration: none;
-  font-weight: bold;
   cursor: pointer;
   &:hover {
-    color: #333;
+    text-decoration: underline;
   }
 }
 
 section, aside {
-  padding: 15px 0;
-  border-top: 1px solid #999;
+  padding: 50px 50px 0;
 }
 
 section {
-  width: 440px;
+  width: 428px;
   padding-right: 50px;
-  float: left;
 }
 
 aside {
-  padding-left: 50px;
-  float: right;
-  
   nav {
     a {
       display: block;
-      text-align: right;
+      font-size: 11px;
     }
   }
 }
@@ -59,9 +62,7 @@ aside {
 @media only screen and (max-width: 900px) {
 
   section, aside {
-    width: 440px;
     float: none;
-    padding: 15px 50px 15px 0;
   } 
 
   aside {
