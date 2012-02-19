@@ -7,12 +7,12 @@ html {
 
 body {
   min-height: 100%;
-  background: #353033;
-  color: #b4b4b4;
+  background: #151515;
+  color: #999;
   font-family: "Helvetica Neue", Helvetica, sans-serif;
   font-size: 14px;
   line-height: 1.5;
-  border-left: 13px solid #ED1A46;
+  border-left: 13px solid #008fff;
 }
 
 
@@ -31,7 +31,7 @@ p {
 }
 
 a {
-  color: #d1ffbf;
+  color: #fff;
   text-decoration: none;
   cursor: pointer;
   &:hover {
@@ -73,7 +73,11 @@ aside {
 }
 
 @media only screen and (max-width: 600px) {
-  body { padding: 20px; }
+  body { 
+    padding: 20px; 
+    border-left: 0;
+    border-top: 13px solid #008fff;    
+  }
   section, aside { 
     width: auto; 
     padding: 15px 30px 15px 0;
