@@ -1,11 +1,7 @@
 require 'coyote/rake'
 
-coyote :build do |config|
+coyote do |config|
   config.input = "css/screen.less"
-  config.output = "css/screen.css"    
+  config.output = "css/screen.css"
 end
 
-coyote :watch do |config|
-  config.input = "css/screen.less"
-  config.output = "css/screen.css"    
-end

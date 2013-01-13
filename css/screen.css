@@ -2,19 +2,26 @@
 html {
   width: 100%;
   height: 100%;
+  background: url('../images/bg.jpg') no-repeat center center fixed;
+  background-size: cover;
 }
 body {
-  background: #fff;
+  position: relative;
+  min-height: 100%;
   font-family: 'Open Sans', sans-serif;
   font-weight: 100;
-  color: #8d8585;
+  color: #cccccc;
   font-size: 15px;
   line-height: 1;
-  overflow-y: scroll;
-  position: relative;
+  background: rgba(2, 19, 23, 0.6) url('../images/noise.png') repeat top left fixed;
+}
+::-moz-selection,
+::selection {
+  background: #90c9db;
+  color: #fff;
 }
 a {
-  color: #c3bfbf;
+  color: #90c9db;
   text-decoration: none;
 }
 a:hover {
@@ -24,7 +31,7 @@ h1,
 h2,
 h3,
 b {
-  color: #645858;
+  color: #ffffff;
 }
 h1 {
   font-size: 36px;
@@ -39,6 +46,7 @@ p {
   margin-bottom: 19px;
 }
 ul li {
+  color: #bbbbbb;
   margin-bottom: 8px;
 }
 ul b:after {
@@ -52,7 +60,7 @@ ul ul li {
   display: inline-block;
   padding-right: 5px;
   margin-right: 5px;
-  border-right: 1px solid #d7d2d2;
+  border-right: 1px solid #bbbbbb;
 }
 ul ul li:last-child {
   border: none;
@@ -123,5 +131,3 @@ section {
     padding-left: 0;
   }
 }
- 
-
