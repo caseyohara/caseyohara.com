@@ -2,48 +2,135 @@
 <html lang="en">
 <head>
   <title>Casey O&rsquo;Hara</title>
-  <link href="css/screen.css?vi7" rel="stylesheet"/>
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,700" rel="stylesheet">
+  <style>
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed,
+    figure, figcaption, footer, header, hgroup,
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: 100%;
+      font: inherit;
+      vertical-align: baseline;
+    }
+
+    article, aside, details, figcaption, figure,
+    footer, header, hgroup, menu, nav, section {
+      display: block;
+    }
+
+    body {
+      line-height: 1;
+    }
+
+    ol, ul {
+      list-style: none;
+    }
+
+    blockquote, q {
+      quotes: none;
+    }
+
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+      content: "";
+      content: none;
+    }
+
+    table {
+      border-collapse: collapse;
+      border-spacing: 0;
+    }
+
+    html {
+      width: 100%;
+      height: 100%;
+      background: #fff;
+    }
+
+    body {
+      position: relative;
+      min-height: 100%;
+      font-family: 'Fira Sans', sans-serif;
+      font-size: 24px;
+      line-height: 1.5625;
+      color: #7f8c8d;
+      text-align: center;
+    }
+
+    main {
+      position: absolute;
+      top: 50%;
+      width: 100%;
+      transform: translateY(-50%);
+    }
+
+    img {
+      width: 128px;
+      height: 128px;
+      border: 8px solid #ecf0f1;
+      border-radius: 100%;
+    }
+
+    a {
+      color: #1abc9c;
+    }
+
+    a:hover {
+      color: #16a085;
+    }
+
+    h1 {
+      margin: 0 0 24px;
+      padding: 0 24px;
+      font-size: 96px;
+      line-height: 1;
+      letter-spacing: -0.75px;
+      font-weight: bold;
+      color: #000;
+    }
+
+    p {
+      margin: 0 0 24px;
+      padding: 0 24px;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    @media only screen and (max-width: 980px) {
+      h1 {
+        font-size: 64px;
+      }
+
+      body {
+        font-size: 18px;
+      }
+    }
+  </style>
 </head>
 <body>
-
-  <img class="logomark" src="images/logo.png" />
-
-  <section>
-    <h1>Casey O&rsquo;Hara</h1>
-    <p>I&rsquo;m a 27 year old web developer living in Denver, Colorado.</p>
-    <p>I &lt;3 Ruby, JavaScript, and open source.</p>
-    <p>I went to school for design, discovered I&rsquo;m better at developing the front-end and I&rsquo;m currently finding the server-side most rewarding. I plan to master the whole stack.</p>
-    <p>I'm building the first platform for automated reforestation at <a href="http://printreleaf.com">PrintReleaf</a>.</p>
-  </section>
-
-  <section>
-    <ul>
-      <li><a href="https://github.com/caseyohara">github.com/caseyohara</a></li>
-      <li><a href="http://twitter.com/caseyohara">twitter.com/caseyohara</a></li>
-      <li><a href="http://rdio.com/people/caseyohara">rdio.com/people/caseyohara</a></li>
-    </ul>
-  </section>
-
-  <section>
-    <ul>
-      <li><a href="mailto:casey.ohara@me.com">email me</a></li>
-      <li><a href="http://twitter.com/caseyohara">follow me on twitter</a></li>
-    </ul>
-  </section>
-
-  <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-6583618-7']);
-    _gaq.push(['_trackPageview']);
-
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-  </script>
+  <main>
+    <p><img src="casey.jpg"></p>
+    <h1>Build Good Software</h1>
+    <p>I&rsquo;m a full-stack engineer and product strategist living in Denver, Colorado.<br>I'm currently building the first platform for automated reforestation at <a href="http://printreleaf.com">PrintReleaf</a>.</p>
+    <p><a href="mailto:casey.ohara@me.com">email</a> • <a href="https://github.com/caseyohara">github</a> • <a href="https://www.linkedin.com/in/caseyohara">linkedin</a></p>
+  </main>
 </body>
 </html>
 
